@@ -1,0 +1,52 @@
+{
+  "name": "test_blueprint",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^5.2.1",
+    "@blueprintjs/icons": "^5.1.5",
+    "@blueprintjs/select": "^5.0.10",
+    "@urbica/react-map-gl": "^1.16.2",
+    "@visx/axis": "^3.3.0",
+    "@visx/glyph": "^3.3.0",
+    "@visx/group": "^3.3.0",
+    "@visx/mock-data": "^3.3.0",
+    "@visx/scale": "^3.3.0",
+    "@visx/shape": "^3.3.0",
+    "@visx/tooltip": "^3.3.0",
+    "axios": "^1.5.0",
+    "chroma-js": "^2.4.2",
+    "d3-array": "^3.2.4",
+    "mapbox-gl": "^2.15.0",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "^5.0.1",
+    "react-split-pane": "^0.1.92",
+    "styled-components": "^6.0.7",
+    "validator": "^13.11.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "use-resize-observer": "^9.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
